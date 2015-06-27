@@ -1,6 +1,6 @@
 # chatter
 
-FIXME
+Chatter is an awesome Clojure app that displays posted messages. Built in June, 2015 as part of ClojureBridge, MN.
 
 ## Prerequisites
 
@@ -16,4 +16,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Nora Vanni
