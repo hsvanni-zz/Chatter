@@ -26,7 +26,7 @@
     (page/include-js  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
     (page/include-css "/chatter.css")]
    [:body
-    [:h1 "Our Chat App"]
+    [:h1 "Clojure Chat"]
     [:p
      (form/form-to
       [:post "/"]
@@ -34,7 +34,7 @@
       "Message: " (form/text-field "msg")
       (form/submit-button "Submit"))]
     [:p
-     [:table#messages.table.table-bordered.table-hover
+     [:table#messages.table.table-striped.table-hover
       (map (fn [m] [:tr [:td (:name m)] [:td (:message m)]]) messages)]]]))
 
 (defroutes app-routes

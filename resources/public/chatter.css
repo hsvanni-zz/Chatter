@@ -1,3 +1,13 @@
 h1 {
 	text-align: center;	
+	color: #349a9a;
+	font-family: Helvetica, sans-serif;
 }
+
+
+/* Button Style*/
+
+#form input{
+	background-color: #349a9a;
+	color: #000;
+} 
